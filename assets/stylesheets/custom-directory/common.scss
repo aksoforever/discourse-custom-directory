@@ -21,6 +21,7 @@
 
   .directory tbody td {
     color: $primary-very-high;
+    width:25%;
   }
 
   .header {
@@ -35,5 +36,8 @@
       margin:0px 0px 0px 0px!important;
       height:20px!important;              
     }
+  }
+  .select-kit{
+  width: 400px!important;
   }
 }
