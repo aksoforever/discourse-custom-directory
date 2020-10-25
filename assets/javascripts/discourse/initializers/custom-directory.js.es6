@@ -10,7 +10,7 @@ function initWithApi(api) {
 
   const defaultPeriod = "all";
   const defaultOrder = "name";
-  const defaultAsc = true;
+  const defaultAsc = false;
 
   registerUnbound('is-website', function(value) {
     return value == 'website';
